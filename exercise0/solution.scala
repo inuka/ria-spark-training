@@ -13,8 +13,8 @@ val messages = errors.map(_.split("\t")).map(r => r(1))
 messages.cache()
 messages.collect.foreach(println)
  
-// How many errors related to MySQL?
-messages.filter(_.contains("mysql")).count()
+// How many errors related to Oracle?
+messages.filter(_.toLowerCase().contains("oracle")).count()
 
-// How many errors related to PHP?
-messages.filter(_.contains("php")).count()
+// How many errors related to Anatella?
+messages.filter(_.toLowerCase().contains("anatella")).count()
