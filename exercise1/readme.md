@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 1: Word count
 
 In this exercise, you will complete the basic word count example. You have been provided a file called ``sample.txt`` that contains a short essay by Paul Graham. To complete this exercise you need to:
 
