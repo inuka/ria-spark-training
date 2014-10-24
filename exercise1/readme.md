@@ -4,4 +4,13 @@ In this exercise, you will complete the basic word count example. You have been 
 
 * Read the text file provided
 * Count the number of occurences of each word
-* _Bonus: List the top 10 occurences in descending order_
+* _Bonus: Sort the occurences in descending order_
+
+
+## Hints
+
+* Read the textfile using ``sc.textFile("sample.txt")``
+* Split a string into words by using ``split(" ")``
+* What is the difference between ``map`` and ``flatMap``?
+* You can transform data structures by using the ``map`` function and specifying the transformation as the function
+* You can aggregate by using ``reduceByKey`` 
