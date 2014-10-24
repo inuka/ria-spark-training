@@ -4,8 +4,8 @@ In this exercise, you will use Spark to analyze the contents of the log file ``l
 
 * How many errors were there?
 * What were the errors?
-* How many errors related to MySQL?
-* How many errors related to PHP?
+* How many errors related to Oracle?
+* How many errors related to Anatella?
 
 ## Hints
 

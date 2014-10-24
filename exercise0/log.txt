@@ -1,5 +1,5 @@
-ERROR	php: dying for unknown reasons
-WARN	dave, are you angry at me?
-ERROR	did mysql just barf?
+ERROR	oracle: could not even install
+WARN	anatella could not find the column 'SITE'
+ERROR	anatella has stopped responding and needs to be restarted
 WARN	xylons approaching
-ERROR	mysql cluster: replace with spark cluster
+ERROR	oracle cluster: replace with spark cluster
