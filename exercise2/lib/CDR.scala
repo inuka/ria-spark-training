@@ -41,4 +41,4 @@ object FancyWrapper extends Serializable {
   }
 
 }
-import CDRImport._
+import FancyWrapper._
