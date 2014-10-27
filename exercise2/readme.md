@@ -26,5 +26,5 @@ In this exercice, you will build a mini KYC to understand where your high-value 
 
 ## Hints
 
-* To create a `CDR` based on a line of `CDR_content.csv`, use `new CDR(line)`
+* To create a `CDR` object based on a line of `CDR_content.csv`, use `CDR(line)`
 * To import a couple of values `a` and `b`, you can import them as a tuple `(a,b)`. To access elements of a tuple `x`, you can use `x._1`, `x._2`, ...
