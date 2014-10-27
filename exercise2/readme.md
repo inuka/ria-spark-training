@@ -5,10 +5,10 @@ In this exercice, you will build a mini KYC to understand where your high-value 
 ## Import the Data
 
 1. Import CDRs
-  * Load `data/CDR_content.csv` into a RDD. It contains one CDR per line. These CDRs have a cell associated to them, but no site yet.
-  * Tranform the RDD of `String` into a RDD of `CDR`
+  * Load `data/cdr.csv` into an RDD. It contains one CDR per line (fields are comma-separated). These CDRs have a cell associated to them, but no site yet.
+  * Tranform the RDD of `String` into an RDD of `CDR` objects.
 2. Import the cell-site lookup table
-  * Load `DIM_CELL_content.csv`, into a RDD. It contains a cell and its corresponding site per line.
+  * Load `data/sites.csv`, into an RDD. It contains a cell and its corresponding site per line.
 
 ## Mine the Data
 
